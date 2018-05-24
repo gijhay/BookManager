@@ -11,8 +11,21 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        This is the About page. You may modify the following file to customize its content:
+       Book Manager is an amateur app created by Gi-Jhay Cosmod.
     </p>
 
-    <code><?= __FILE__ ?></code>
+<p>
+</p>
+<p>
+</p>
+
+
+    <p>
+     All rights reserved 2018.
+     </p>
+       
+    <p>
+       No parts of this app can be modified or edited  by other persons not allowed by the administrator.
+    </p>
+
 </div>

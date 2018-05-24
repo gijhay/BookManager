@@ -9,21 +9,35 @@ class User extends \yii\base\BaseObject implements \yii\web\IdentityInterface
     public $password;
     public $authKey;
     public $accessToken;
+    public $role;
+    const ROLE_ADMIN = 100;
+    const ROLE_EDITOR = 101;
+    const ROLE_AUTHOR = 102;
 
     private static $users = [
         '100' => [
             'id' => '100',
-            'username' => 'admin',
-            'password' => 'admin',
+            'username' => 'gijhay',
+            'password' => 'adventist123',
             'authKey' => 'test100key',
+            'role' => 100,
             'accessToken' => '100-token',
         ],
         '101' => [
             'id' => '101',
-            'username' => 'demo',
-            'password' => 'demo',
+            'username' => 'cosmod',
+            'password' => 'adventist123',
             'authKey' => 'test101key',
+            'role' => 200,
             'accessToken' => '101-token',
+        ],
+        '102' => [
+            'id' => '102',
+            'username' => 'gijhaycosmod',
+            'password' => 'adventist123',
+            'authKey' => 'test101key',
+            'role' => 102,
+            'accessToken' => '102-token',
         ],
     ];
 
